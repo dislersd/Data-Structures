@@ -3,7 +3,7 @@ Answer the following questions for each of the data structures you implemented a
 ## Queue
 
 1. What is the runtime complexity of `enqueue`?
-
+O(n) because all elements have to shift over one. As n elements grows so does amount of shifts
 2. What is the runtime complexity of `dequeue`?
 
 3. What is the runtime complexity of `len`?
