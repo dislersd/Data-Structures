@@ -5,9 +5,9 @@ Answer the following questions for each of the data structures you implemented a
 1. What is the runtime complexity of `enqueue`?
 O(n) because all elements have to shift over one. As n elements grows so does amount of shifts
 2. What is the runtime complexity of `dequeue`?
-
+O(1) because lookup of list index is constant and no elements need to shift
 3. What is the runtime complexity of `len`?
-
+O(1) len method
 ## Binary Search Tree
 
 1. What is the runtime complexity of `insert`? 
