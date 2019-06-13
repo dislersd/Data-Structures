@@ -64,7 +64,7 @@ class DoublyLinkedList:
     def remove_from_head(self):
         if self.head is None and self.tail is None:
             return None
-        if self.head is self.tail or self.tail is self.head:
+        if self.head is self.tail:
             old_head = self.head
             self.head = None
             self.tail = None
@@ -114,8 +114,6 @@ class DoublyLinkedList:
             self.tail.insert_after(node.value)
             self.head = self.head.next
             self.tail = self.tail.next
-
-        
 
     def delete(self, node):
         if node == self.tail:
